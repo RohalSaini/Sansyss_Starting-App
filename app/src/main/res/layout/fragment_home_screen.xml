@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="50px"
+        android:background="@color/white"
+        android:layout_marginBottom="20px"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/course_name"
+            android:text="Web Development"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="40px"
+            android:textColor="@color/normalColor1"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/course_description"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/padding_40px"
+            android:paddingBottom="@dimen/padding_40px"
+            android:textAlignment="gravity"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/normalColor1"
+            android:text="@string/courseDescroption"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/course_name"
+            android:justificationMode="inter_word" />
+        <ImageView
+            android:id="@+id/course_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/product"
+            android:layout_marginTop="20px"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/course_description"/>
+        <Button
+            android:id="@+id/btn_more"
+            android:text="@string/btn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/normalColor1"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/course_pic"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

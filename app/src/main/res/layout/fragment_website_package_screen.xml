@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="50px"
+        android:background="@color/white"
+        android:layout_marginBottom="20px"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/course_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/product"
+            android:layout_marginTop="20px"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:id="@+id/course_name"
+            android:text="Web Development"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="40px"
+            android:textColor="@color/normalColor1"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/course_pic"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cost_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/course_name">
+            <TextView
+                android:id="@+id/cost"
+                android:text="RS 2700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/normalColor1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <TextView
+                android:id="@+id/value"
+                android:text="RS 2700"
+                android:paddingStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/normalColor1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/cost"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/cart"
+            android:text="@string/add_to_Cart"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cost_lay"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

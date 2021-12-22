@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">SanssysTechnology</string>
+
+    <string name="logoFirstName">SANSSYS</string>
+    <string name="logoLastName">Technology</string>
+
+    <string name="login">LOGIN</string>
+    <string name="google_login">Login With Google ID</string>
+    <string name="login_btn">Click to Login</string>
+    <string name="app">SANSSYS TECHNOLOGY</string>
+
+    <string name="home">Home</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+
+    <string name="service">Our Services</string>
+    <string name="web_development">Web Development</string>
+    <string name="software_development">Software Development</string>
+    <string name="app_game_development">App And Game Development</string>
+    <string name="digital_marketing">Digital Marketing</string>
+    <string name="hardware_solution">Hardware And Networking Solution</string>
+    <string name="security">Security And Survelliance</string>
+    <string name="training">IT Training</string>
+
+    <string name="portfolio">Portfolio</string>
+    <string name="network">Network Integration</string>
+    <string name="product">Products</string>
+
+    <string name="packages_web">Web Designing Packages</string>
+    <string name="packages_seo">SEO Packages</string>
+    <string name="add_to_Cart">Add to Cart</string>
+
+    <string name="signOut">Sign Out</string>
+
+    <string name="course_name">Web Development</string>
+    <string name="courseDescroption">
+       Give your website and amazing UI with our customise Web Design and Development packages in our Company in Hoshiarpur Punjab. If you are going to be online, then you need a proper website- one built by professionals who are passionate about what they do, and offer you comprehensive web design packages prices in India.
+    </string>
+    <string name="btn_more">See Packages</string>
+    <string name="detail_1">
+        Since 2011, SANSSYS has provided futuristic and reliable Software and Networking Solutions to clients spread across the spectrum.
+    </string>
+    <string name="detail_2">Our solutions are not restricted to products from a single vendor or platform. Based on the client’s requirements, we decide which products are best suited to their needs and design accordingly. We have strategic partnerships and domain expertise with most of the well known names in the network and security industry</string>
+    <string name="detail_3">
+        SANSSYS Technologies is an Internationally recognized Software Development and Network  Solutions  Company. SANSSYS’s core Management team is built around the expertise of top class performance with proven track in software design, development, testing and implementation for topnotch companies
+    </string>
+    <string name="address">
+        Gandharab And Son’s Complex \n
+        2nd floor, Session Court Road \n
+        Hoshiarpur (punjab) 146001
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="comingSoon">Coming Soon</string>
+    <string name="web_Development_Screen_1">
+        SANSSYS Technologies is a leading IT Solutions company based in India, offering all kinds of custom built websites, web portals and web applications.We use cutting edge technologies, advanced frameworks and proven methodologies to ensure that our solutions are future-ready and scalable.We have an excellent team of web development experts who are constantly experimenting and implementing innovative ideas that will transform website designs into a gold mine for your business.
+    </string>
+    <string name="web_Development_Screen_2">
+    Our Team Deals With :
+    </string>
+    <string name="web_Development_Screen_3">
+        1. Web Designing\n
+        2. Web Development\n
+        3. Web Hosting\n
+        4. Software Development\n
+        5. ECommerce\n
+        6. Search Engine Optimization\n
+        7. Theme Creation And Customization \n
+        8. Website Maintenance \n
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="software_Screeen_1">
+
+
+There is no end to software development. It is a complex process that involves number of steps that needs to be followed to get the right end results. As per your needs and budget, we will develop the optimal software solution – from GUI applications to sophisticated engines and programming complexes. We believe in using the best, most popular and cutting edge Internet-related technologies that are optimal for the project from a technical and financial point of view.
+    </string>
+    <string name="software_Screen_2">
+         We have a robust testing process in place to test all our software packages before the final delivery. Our expert analysts firstly gather the requirements for you to prepare a comprehensive business requirement document and then pass it to the developers for the final development. We follow an extremely robust software development lifecycle to ensure an uninterrupted service of the software. We deliver exactly what you need.
+    </string>
+    <string name="software_Screen_3">
+        The software development platforms we use to develop your software solution are the most modern ones. We follow technologically advanced methodologies to develop as well maintain your software application. Our engineering practices are the most modern one and are well equipped to deliver all types of requirements.
+    </string>
+    <string name="software_Screen_4">
+        We care about you and your business. As per your requirement and purpose, our Software Development Service can be of different types and that includes the following packages:
+    </string>
+    <string name="software_Screen_5">
+        1. Custom Application Development\n
+        2. Application or software redevelopment\n
+        3. Web application development services\n
+        4. Migration of software applications\n
+    </string>
+
+    <string name="digital_Screen_1">
+        A website is the centerpiece of all digital marketing activities. Alone, it is a very powerful channel, but it’s also the medium needed to execute a variety of online marketing campaigns. A website should represent a brand, product and services in a clear and memorable way. It should be fast, mobile friendly, and easy to use.
+    </string>
+    <string name="digital_Screen_2">
+        PPC advertising enables you to reach internet users on a number of digital platforms through paid ads. You can setup PPC campaigns on Google, Bing, Linkendin, Twitter or Facebook and show your ads to people searching for terms related to your products or services. PPC campaigns can segment users based on their demographic characteristics (age, gender etc) or even their particular interests or location. The most popular PPC platforms are Google Ads and Facebook.
+    </string>
+    <string name="digital_Screen_3">
+        The goal of a content marketing is to reach potential customers through the use of content. Content is usually published on a website and then promoted through social media, email marketing, SEO, or even PPC campaigns. The tools of content marketing include: blogs, ebooks, online courses, infographics, podcasts, and webinars.
+    </string>
+    <string name="digital_Screen_4">
+        The primary goal of a social media marketing campaign is brand awareness and establishing social trust but as you go deeper into social media marketing, you can use it to get leads or even as a direct sales channel.
+    </string>
+    <string name="digital_Screen_5">
+        Political parties and candidates use SMS messages to send positive information about their candidates and negative messages about their opponents.
+    </string>
+    <string name="digital_Screen_6">
+        YouTube has become the second most popular search engine and a lot of users are turning to YouTube before they make a buying decision, to learn something or just to relax. There are several video marketing platforms, including Facebook Videos, Instagram, Vimeo to use to run a video marketing campaign.
+    </string>
+
+    <string name="hardware_1">
+        We provide networking solutions along with the requisite hardware such as switches, hubs, gateways, access points, network interface cards, networking cables and structured cabling to help you choose the right solution for your business needs.
+    </string>
+    <string name="hardware_2">
+        We provide the A-to-Z of Security Systems including CCTV and IP Surveillance, with flexible and scalable solutions for professional video surveillance and remote monitoring. We make deployment easy in all types of environments: indoor, outdoor, wired, wireless, and in rough conditions, with networked video.
+    </string>
+    <string name="hardware_3">
+        We supply and install Access Control Systems that are of high quality with low maintenance. Our Bio Metric time and attendance system gives a precise system to measure your staff activities. An advanced facial recognition software application can identify a specific individual for more high security control.Our wide range of Video Door Phones allows to check entry door access with option to communicate with the visitor to monitor, record and capture images of any visits for improved management. Bundled with Panic Button, Alarm and Siren Function, Door Lock/ Unlock feature, Night-vision and Multi-zone Wire/ Wireless Sensor Connectivity, we provide the most secure intrusion protection system.
+    </string>
+
+    <string name="security_1">
+        We provide the A-to-Z of Security Systems including CCTV and IP Surveillance, with flexible and scalable solutions for professional video surveillance and remote monitoring. We make deployment easy in all types of environments: indoor, outdoor, wired, wireless, and in rough conditions, with networked video.
+    </string>
+    <string name="security_2">
+        We supply and install Access Control Systems that are of high quality with low maintenance. Our Bio Metric time and attendance system gives a precise system to measure your staff activities. An advanced facial recognition software application can identify a specific individual for more high security control.Our wide range of Video Door Phones allows to check entry door access with option to communicate with the visitor to monitor, record and capture images of any visits for improved management. Bundled with Panic Button, Alarm and Siren Function, Door Lock/ Unlock feature, Night-vision and Multi-zone Wire/ Wireless Sensor Connectivity, we provide the most secure intrusion protection system.
+    </string>
+</resources>

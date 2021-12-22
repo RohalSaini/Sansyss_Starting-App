@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">20pt</dimen>
+
+    <dimen name="padding_20px">20px</dimen>
+    <dimen name="padding_40px">40px</dimen>
+</resources>

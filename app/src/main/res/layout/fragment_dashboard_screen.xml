@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    style="@style/Theme"
+    tools:context=".fragment.dashbaord.DashboardScreen">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:background="@color/backgroundColor1">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include
+                android:id="@+id/layput_toolbar"
+                layout="@layout/toolbar"/>
+        </androidx.appcompat.widget.Toolbar>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/swipeRefreshlayout">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/baseAdpater"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="300dp"
+        android:id="@+id/nav_view"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:itemTextAppearance="@color/normalColor1"
+        app:itemTextColor="@color/normalColor1"
+        app:itemIconTint="@color/normalColor1"
+        app:headerLayout="@layout/content"
+        app:menu="@menu/menu">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
